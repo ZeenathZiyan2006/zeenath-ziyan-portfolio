@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgData" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E2A1C"/>
+      <stop offset="50%" stop-color="#344632"/>
+      <stop offset="100%" stop-color="#4B6348"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="640" height="400" fill="url(#bgData)"/>
+
+  <!-- Analytics Chart Bars -->
+  <g transform="translate(60, 60)">
+    <!-- Y Axis grid lines -->
+    <line x1="0" y1="200" x2="520" y2="200" stroke="#526B50" stroke-width="1.5"/>
+    <line x1="0" y1="150" x2="520" y2="150" stroke="#526B50" stroke-width="0.8" stroke-dasharray="4 4" opacity="0.5"/>
+    <line x1="0" y1="100" x2="520" y2="100" stroke="#526B50" stroke-width="0.8" stroke-dasharray="4 4" opacity="0.5"/>
+    <line x1="0" y1="50" x2="520" y2="50" stroke="#526B50" stroke-width="0.8" stroke-dasharray="4 4" opacity="0.5"/>
+
+    <!-- Bar 1 -->
+    <rect x="40" y="40" width="45" height="160" rx="6" fill="#DCE8D5"/>
+    <text x="62" y="30" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="bold" fill="#F7F5EC">94%</text>
+    <text x="62" y="220" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#DCE8D5">CSE A</text>
+
+    <!-- Bar 2 -->
+    <rect x="120" y="65" width="45" height="135" rx="6" fill="#A3B899"/>
+    <text x="142" y="55" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="bold" fill="#F7F5EC">88%</text>
+    <text x="142" y="220" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#DCE8D5">AI &amp; DS</text>
+
+    <!-- Bar 3 -->
+    <rect x="200" y="30" width="45" height="170" rx="6" fill="#DCE8D5"/>
+    <text x="222" y="20" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="bold" fill="#F7F5EC">96%</text>
+    <text x="222" y="220" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#DCE8D5">ECE</text>
+
+    <!-- Bar 4 -->
+    <rect x="280" y="80" width="45" height="120" rx="6" fill="#A3B899"/>
+    <text x="302" y="70" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="bold" fill="#F7F5EC">82%</text>
+    <text x="302" y="220" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#DCE8D5">MECH</text>
+
+    <!-- Bar 5 -->
+    <rect x="360" y="50" width="45" height="150" rx="6" fill="#DCE8D5"/>
+    <text x="382" y="40" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="bold" fill="#F7F5EC">91%</text>
+    <text x="382" y="220" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#DCE8D5">CIVIL</text>
+
+    <!-- Line chart trend -->
+    <path d="M62 40 L142 65 L222 30 L302 80 L382 50" fill="none" stroke="#FFFFFF" stroke-width="2.5"/>
+    <circle cx="62" cy="40" r="5" fill="#526B50" stroke="#FFFFFF" stroke-width="2"/>
+    <circle cx="142" cy="65" r="5" fill="#526B50" stroke="#FFFFFF" stroke-width="2"/>
+    <circle cx="222" cy="30" r="5" fill="#526B50" stroke="#FFFFFF" stroke-width="2"/>
+    <circle cx="302" cy="80" r="5" fill="#526B50" stroke="#FFFFFF" stroke-width="2"/>
+    <circle cx="382" cy="50" r="5" fill="#526B50" stroke="#FFFFFF" stroke-width="2"/>
+  </g>
+
+  <!-- Title Bottom -->
+  <rect x="0" y="320" width="640" height="80" fill="#1E2A1C" fill-opacity="0.95"/>
+  <text x="32" y="355" font-family="'Plus Jakarta Sans', sans-serif" font-size="18" font-weight="800" fill="#FFFFFF">Student Attendance Analytics (Pandas)</text>
+  <text x="32" y="378" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" fill="#DCE8D5">Exploratory Data Analysis, Trend Forecasting &amp; Seaborn Visuals</text>
+</svg>

@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgHealth" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#192318"/>
+      <stop offset="50%" stop-color="#2D3B2A"/>
+      <stop offset="100%" stop-color="#41553F"/>
+    </linearGradient>
+    <linearGradient id="ecgGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#526B50"/>
+      <stop offset="50%" stop-color="#DCE8D5"/>
+      <stop offset="100%" stop-color="#526B50"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="640" height="400" fill="url(#bgHealth)"/>
+
+  <!-- ECG Grid Background -->
+  <g stroke="#526B50" stroke-width="0.75" opacity="0.3">
+    <line x1="0" y1="50" x2="640" y2="50"/><line x1="0" y1="100" x2="640" y2="100"/><line x1="0" y1="150" x2="640" y2="150"/>
+    <line x1="0" y1="200" x2="640" y2="200"/><line x1="0" y1="250" x2="640" y2="250"/><line x1="0" y1="300" x2="640" y2="300"/>
+    <line x1="80" y1="0" x2="80" y2="400"/><line x1="160" y1="0" x2="160" y2="400"/><line x1="240" y1="0" x2="240" y2="400"/>
+    <line x1="320" y1="0" x2="320" y2="400"/><line x1="400" y1="0" x2="400" y2="400"/><line x1="480" y1="0" x2="480" y2="400"/><line x1="560" y1="0" x2="560" y2="400"/>
+  </g>
+
+  <!-- Pulsing ECG Waveform Path -->
+  <path d="M0 200 L120 200 L140 185 L155 210 L170 200 L210 200 L230 140 L250 270 L270 170 L285 205 L300 200 L420 200 L440 140 L460 270 L480 170 L495 205 L510 200 L640 200" fill="none" stroke="url(#ecgGlow)" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Vital Metrics Cards -->
+  <g transform="translate(40, 60)">
+    <rect width="160" height="70" rx="12" fill="#192318" fill-opacity="0.85" stroke="#526B50" stroke-width="1.5"/>
+    <text x="16" y="28" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="bold" fill="#DCE8D5">HEART RATE</text>
+    <text x="16" y="55" font-family="'JetBrains Mono', monospace" font-size="22" font-weight="bold" fill="#FFFFFF">76 <tspan font-size="12" fill="#A3B899">BPM</tspan></text>
+  </g>
+
+  <g transform="translate(240, 60)">
+    <rect width="160" height="70" rx="12" fill="#192318" fill-opacity="0.85" stroke="#526B50" stroke-width="1.5"/>
+    <text x="16" y="28" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="bold" fill="#DCE8D5">BLOOD OXYGEN</text>
+    <text x="16" y="55" font-family="'JetBrains Mono', monospace" font-size="22" font-weight="bold" fill="#FFFFFF">98% <tspan font-size="12" fill="#A3B899">SpO2</tspan></text>
+  </g>
+
+  <g transform="translate(440, 60)">
+    <rect width="160" height="70" rx="12" fill="#192318" fill-opacity="0.85" stroke="#526B50" stroke-width="1.5"/>
+    <text x="16" y="28" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="bold" fill="#DCE8D5">TEMPERATURE</text>
+    <text x="16" y="55" font-family="'JetBrains Mono', monospace" font-size="22" font-weight="bold" fill="#FFFFFF">98.4° <tspan font-size="12" fill="#A3B899">F</tspan></text>
+  </g>
+
+  <!-- Title Bottom -->
+  <rect x="0" y="320" width="640" height="80" fill="#192318" fill-opacity="0.95"/>
+  <text x="32" y="355" font-family="'Plus Jakarta Sans', sans-serif" font-size="18" font-weight="800" fill="#FFFFFF">Smart Wearable Health Monitor</text>
+  <text x="32" y="378" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" fill="#DCE8D5">IoT Real-Time Vital Signs Telemetry &amp; Anomaly Detection</text>
+</svg>

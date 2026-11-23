@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgTitanic" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#15211B"/>
+      <stop offset="50%" stop-color="#283A30"/>
+      <stop offset="100%" stop-color="#3C5647"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="640" height="400" fill="url(#bgTitanic)"/>
+
+  <!-- ML Matrix / Model Evaluation Graphic -->
+  <g transform="translate(60, 50)">
+    <!-- Confusion Matrix Card -->
+    <rect x="0" y="0" width="240" height="180" rx="14" fill="#15211B" fill-opacity="0.85" stroke="#526B50" stroke-width="1.5"/>
+    <text x="20" y="32" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="bold" fill="#DCE8D5">CONFUSION MATRIX</text>
+    
+    <rect x="20" y="50" width="95" height="50" rx="6" fill="#526B50" fill-opacity="0.7"/>
+    <text x="67" y="80" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="16" font-weight="bold" fill="#FFFFFF">TP: 549</text>
+
+    <rect x="125" y="50" width="95" height="50" rx="6" fill="#A3B899" fill-opacity="0.3"/>
+    <text x="172" y="80" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="16" font-weight="bold" fill="#DCE8D5">FP: 68</text>
+
+    <rect x="20" y="110" width="95" height="50" rx="6" fill="#A3B899" fill-opacity="0.3"/>
+    <text x="67" y="140" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="16" font-weight="bold" fill="#DCE8D5">FN: 82</text>
+
+    <rect x="125" y="110" width="95" height="50" rx="6" fill="#526B50" fill-opacity="0.7"/>
+    <text x="172" y="140" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="16" font-weight="bold" fill="#FFFFFF">TN: 342</text>
+
+    <!-- Metrics Card -->
+    <g transform="translate(265, 0)">
+      <rect width="255" height="180" rx="14" fill="#15211B" fill-opacity="0.85" stroke="#526B50" stroke-width="1.5"/>
+      <text x="20" y="32" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="bold" fill="#DCE8D5">MODEL BENCHMARKS</text>
+
+      <text x="20" y="70" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" fill="#DCE8D5">Random Forest Accuracy</text>
+      <text x="235" y="70" text-anchor="end" font-family="'JetBrains Mono', monospace" font-size="14" font-weight="bold" fill="#FFFFFF">84.2%</text>
+      <rect x="20" y="80" width="215" height="6" rx="3" fill="#283A30"/>
+      <rect x="20" y="80" width="181" height="6" rx="3" fill="#DCE8D5"/>
+
+      <text x="20" y="125" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" fill="#DCE8D5">Gradient Boost AUC</text>
+      <text x="235" y="125" text-anchor="end" font-family="'JetBrains Mono', monospace" font-size="14" font-weight="bold" fill="#FFFFFF">87.6%</text>
+      <rect x="20" y="135" width="215" height="6" rx="3" fill="#283A30"/>
+      <rect x="20" y="135" width="188" height="6" rx="3" fill="#A3B899"/>
+    </g>
+  </g>
+
+  <!-- Title Bottom -->
+  <rect x="0" y="320" width="640" height="80" fill="#15211B" fill-opacity="0.95"/>
+  <text x="32" y="355" font-family="'Plus Jakarta Sans', sans-serif" font-size="18" font-weight="800" fill="#FFFFFF">Titanic Survival Predictive Modeling</text>
+  <text x="32" y="378" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" fill="#DCE8D5">Classification Algorithms, Feature Engineering &amp; ML Benchmarks</text>
+</svg>

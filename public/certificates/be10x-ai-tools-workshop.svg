@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 640" width="100%" height="100%">
+  <defs>
+    <linearGradient id="sageBorder2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#526B50"/>
+      <stop offset="50%" stop-color="#A3B899"/>
+      <stop offset="100%" stop-color="#526B50"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="960" height="640" rx="16" fill="#FFFFFF"/>
+  <rect x="18" y="18" width="924" height="604" rx="12" fill="#F7F5EC" stroke="#DCE8D5" stroke-width="2"/>
+  <rect x="32" y="32" width="896" height="576" rx="8" fill="none" stroke="url(#sageBorder2)" stroke-width="2"/>
+  <rect x="42" y="42" width="876" height="556" rx="6" fill="none" stroke="#DCE8D5" stroke-width="1.2" stroke-dasharray="6 6"/>
+
+  <!-- Left Header: be10x Brand Pill -->
+  <g transform="translate(140, 90)">
+    <rect x="-65" y="-22" width="130" height="44" rx="12" fill="#526B50"/>
+    <text x="0" y="8" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="24" font-weight="900" fill="#FFFFFF">be<tspan fill="#DCE8D5">10x</tspan></text>
+  </g>
+
+  <!-- Right Ribbon: AI Tools Workshop & Verified Stamp -->
+  <g transform="translate(770, 95)">
+    <rect x="-95" y="-20" width="190" height="180" rx="14" fill="#FFFFFF" stroke="#DCE8D5" stroke-width="1.5" filter="drop-shadow(0 4px 6px rgba(52,61,50,0.06))"/>
+    <text x="0" y="5" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="800" fill="#526B50" letter-spacing="1.5">AI TOOLS WORKSHOP</text>
+    
+    <!-- Rosette Stamp -->
+    <g transform="translate(0, 48)">
+      <circle cx="0" cy="0" r="28" fill="#DCE8D5" stroke="#526B50" stroke-width="1.5"/>
+      <circle cx="0" cy="0" r="22" fill="#526B50"/>
+      <text x="0" y="-3" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="900" fill="#FFFFFF">be10x</text>
+      <text x="0" y="9" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" font-weight="bold" fill="#DCE8D5">VERIFIED</text>
+    </g>
+
+    <text x="0" y="98" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="600" fill="#76946C">Issued on:</text>
+    <text x="0" y="115" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="bold" fill="#343D32">September 14th, 2025</text>
+    
+    <!-- Mini QR Code -->
+    <g transform="translate(0, 138)">
+      <rect x="-12" y="-12" width="24" height="24" fill="#FFFFFF" stroke="#DCE8D5"/>
+      <rect x="-9" y="-9" width="6" height="6" fill="#343D32"/><rect x="3" y="-9" width="6" height="6" fill="#343D32"/>
+      <rect x="-9" y="3" width="6" height="6" fill="#343D32"/><rect x="1" y="1" width="4" height="4" fill="#526B50"/>
+    </g>
+  </g>
+
+  <!-- Title Area -->
+  <text x="400" y="165" text-anchor="middle" font-family="'Plus Jakarta Sans', serif" font-size="34" font-weight="900" fill="#343D32" letter-spacing="2">
+    Certificate
+  </text>
+  <text x="400" y="195" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="15" font-weight="600" fill="#526B50">
+    of Completion Awarded to
+  </text>
+
+  <!-- Recipient Name -->
+  <text x="400" y="255" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="36" font-weight="800" fill="#343D32" letter-spacing="1">
+    ZEENATH ZIYAN
+  </text>
+  <line x1="160" y1="272" x2="640" y2="272" stroke="#526B50" stroke-width="1.8"/>
+
+  <!-- Workshop Scope & Outcomes (Verbatim from Certificate) -->
+  <g transform="translate(400, 310)">
+    <text x="0" y="0" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" font-weight="600" fill="#343D32">
+      on successful completion of AI tools and ChatGPT workshop
+    </text>
+    <text x="0" y="24" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="700" fill="#526B50">
+      Holder of this certificate can:
+    </text>
+
+    <!-- Checklist bullets -->
+    <g transform="translate(-180, 48)">
+      <circle cx="0" cy="0" r="4" fill="#526B50"/>
+      <text x="14" y="4" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="500" fill="#343D32">Create presentations using AI in under 5 min</text>
+      
+      <circle cx="0" cy="22" r="4" fill="#526B50"/>
+      <text x="14" y="26" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="500" fill="#343D32">Analyse data using AI in under 30 min</text>
+      
+      <circle cx="0" cy="44" r="4" fill="#526B50"/>
+      <text x="14" y="48" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="500" fill="#343D32">Code and Debug using AI in under 10 min</text>
+    </g>
+  </g>
+
+  <!-- =========================================================================
+       AUTHORITIES & SIGNATURES (NO EMPTY SPACE)
+       ========================================================================= -->
+
+  <!-- Left Authority: Aditya Goenka -->
+  <g transform="translate(240, 495)">
+    <!-- Realistic Cursive Handwritten Signature -->
+    <path d="M-55 -8 C-40 -35 -20 10 -5 -15 C10 -35 25 2 45 -12 C60 -22 75 -2 80 -8" fill="none" stroke="#343D32" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M-35 2 C-5 12 25 -2 55 5" fill="none" stroke="#526B50" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="-70" y1="12" x2="90" y2="12" stroke="#526B50" stroke-width="1.2"/>
+    <text x="10" y="30" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="bold" fill="#343D32">Aditya Goenka</text>
+    <text x="10" y="46" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="600" fill="#526B50">Co-founder, be10x</text>
+  </g>
+
+  <!-- Right Authority: Aditya Kachave -->
+  <g transform="translate(560, 495)">
+    <!-- Realistic Cursive Handwritten Signature -->
+    <path d="M-60 2 C-45 -28 -20 12 -5 -12 C12 -28 30 5 50 -10 C65 -20 78 0 85 -5" fill="none" stroke="#343D32" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M-40 8 C-10 -2 20 10 60 2" fill="none" stroke="#526B50" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="-70" y1="12" x2="90" y2="12" stroke="#526B50" stroke-width="1.2"/>
+    <text x="10" y="30" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="bold" fill="#343D32">Aditya Kachave</text>
+    <text x="10" y="46" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="600" fill="#526B50">Co-founder, be10x</text>
+  </g>
+</svg>
