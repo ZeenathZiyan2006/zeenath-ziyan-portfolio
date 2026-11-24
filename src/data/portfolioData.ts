@@ -401,6 +401,72 @@ export const certificationsData: CertificateItem[] = [
     description: "Official digital membership kit and student credential card for the Mangalore Subsection. Provides access to IEEE technical publications, conferences, and student branch activities.",
     imagePath: "/certificates/ieee-card-original.jpg",
     realDocPath: "/certificates/ieee-student-membership.svg"
+  },
+  {
+    id: "smvitm-web-dev",
+    title: "Web Development — Value Added Course",
+    issuer: "Shri Madhwa Vadiraja Institute of Technology and Management (SMVITM)",
+    date: "22-01-2026",
+    year: "2026",
+    category: "Web Development & Engineering",
+    description: "USN: 4MW24AD058 (III Sem, B.E. in AI & DS). Successfully completed the specialized Value Added Course on Web Development focused on All Round Personality Development (conducted across 6 sessions from 27-09-2025 to 27-12-2025). Certified by Coordinator Ms. Vidya Bhat and Principal Dr. Nagaraj Bhat.",
+    imagePath: "/certificates/smvitm-web-development-original.jpg",
+    realDocPath: "/certificates/smvitm-web-development.svg"
+  },
+  {
+    id: "csc-academy-bcc",
+    title: "Basic Computer Course (BCC)",
+    issuer: "CSC Academy",
+    date: "06-09-2025",
+    year: "2025",
+    category: "Computer Fundamentals & IT",
+    description: "Certificate No: CSC6472142272. Successfully completed comprehensive training in Computer Fundamentals, Operating Systems, Word Processing, Spreadsheets, and Internet Digital Services. Certified by Naveen Sharma (COO, CSC Academy, New Delhi).",
+    imagePath: "/certificates/csc-academy-computer-course-original.jpg",
+    realDocPath: "/certificates/csc-academy-computer-course.svg"
+  },
+  {
+    id: "kam-national-rank-2018",
+    title: "National Level Maths Talent Search — National Rank Winner",
+    issuer: "Karnataka Academy of Mathematics",
+    date: "Year 2018",
+    year: "2018",
+    category: "National Mathematics Award",
+    description: "Honored with the National Rank Winner distinction, securing the IXth Rank in National Level in the prestigious National Level Maths Talent Search Examination 2018 as a student of M.E.T. Public School. Certified by Convener Manjunatha H.",
+    imagePath: "/certificates/maths-talent-search-2018-national-rank-original.jpg",
+    realDocPath: "/certificates/maths-talent-search-2018-national-rank.svg"
+  },
+  {
+    id: "kam-international-first-class-2016",
+    title: "17th International Maths Talent Search — 1st Class Honor",
+    issuer: "Karnataka Academy of Mathematics",
+    date: "Year 2016",
+    year: "2016",
+    category: "International Mathematics Competition",
+    description: "Awarded 1st Class at the School/College Level in the 17th International Maths Talent Search Examination 2016 for outstanding mathematical proficiency and analytical problem solving. Certified by Convener Manjunatha H.",
+    imagePath: "/certificates/maths-talent-search-2016-first-class-original.jpg",
+    realDocPath: "/certificates/maths-talent-search-2016-first-class.svg"
+  },
+  {
+    id: "kam-national-pass-2018",
+    title: "National Level Maths Talent Search Examination 2018",
+    issuer: "Karnataka Academy of Mathematics",
+    date: "Year 2018",
+    year: "2018",
+    category: "Mathematics & Academics",
+    description: "Participated and secured Pass Class at School/College Level in the National Level Maths Talent Search Examination 2018 as a student of VII Standard at M.E.T. Public School. Certified by Convener Manjunatha H.",
+    imagePath: "/certificates/maths-talent-search-2018-pass-original.jpg",
+    realDocPath: "/certificates/maths-talent-search-2018-pass.svg"
+  },
+  {
+    id: "gnels-abacus-2018",
+    title: "State Level Abacus Competition (IV Level)",
+    issuer: "Gurukula Neo Educational Learning Systems (GNELS)",
+    date: "21st January 2018",
+    year: "2018",
+    category: "Cognitive Skills & Abacus",
+    description: "Demonstrated advanced mental arithmetic speed and calculation agility at the State Level Abacus Competition (IV Level) held at Alva's English Medium High School, Moodabidri. Certified by Director Lakshmi G Hegde.",
+    imagePath: "/certificates/gnels-abacus-competition-original.jpg",
+    realDocPath: "/certificates/gnels-abacus-competition.svg"
   }
 ];
 
