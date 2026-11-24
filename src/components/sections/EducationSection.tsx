@@ -35,10 +35,17 @@ export default function EducationSection() {
                       <GraduationCap className="w-6 h-6" />
                     </div>
                     <div>
-                      <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold bg-[#DCE8D5] text-[#526B50] mb-1.5">
-                        <Award className="w-3.5 h-3.5" />
-                        {edu.status}
-                      </span>
+                      <div className="flex flex-wrap items-center gap-2 mb-1.5">
+                        <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold bg-[#DCE8D5] text-[#526B50]">
+                          <Award className="w-3.5 h-3.5" />
+                          {edu.status}
+                        </span>
+                        {edu.score && (
+                          <span className="inline-flex items-center gap-1 px-3 py-1 rounded-full text-xs font-bold bg-[#526B50] text-[#FFFFFF] shadow-xs">
+                            {edu.score}
+                          </span>
+                        )}
+                      </div>
                       <h3 className="text-xl sm:text-2xl font-bold text-[#343D32]">
                         {edu.institution}
                       </h3>

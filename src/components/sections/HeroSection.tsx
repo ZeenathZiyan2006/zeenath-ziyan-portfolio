@@ -73,10 +73,10 @@ export default function HeroSection() {
 
               {/* Secondary: Download Resume */}
               <a
-                href={personalInfo.resumeUrl}
-                download={personalInfo.resumeUrl.endsWith('.pdf') ? true : undefined}
-                className="inline-flex items-center gap-2 px-6 py-3.5 rounded-full bg-[#FFFFFF] border border-[#DCE8D5] hover:border-[#526B50] hover:bg-[#DCE8D5]/40 text-[#343D32] text-sm font-semibold shadow-subtle transition-all transform hover:-translate-y-0.5"
-                title="Download Resume (Replace with your resume.pdf)"
+                href="/Zeenath_Ziyan_Resume.pdf"
+                download="Zeenath_Ziyan_Resume.pdf"
+                className="inline-flex items-center gap-2 px-6 py-3.5 rounded-full bg-[#FFFFFF] border border-[#DCE8D5] hover:border-[#526B50] hover:bg-[#DCE8D5]/40 text-[#343D32] text-sm font-semibold shadow-subtle transition-all transform hover:-translate-y-0.5 cursor-pointer"
+                title="Download Zeenath Ziyan's Resume (PDF)"
               >
                 <FileText className="w-4 h-4 text-[#526B50]" />
                 <span>Download Resume</span>
@@ -170,38 +170,6 @@ export default function HeroSection() {
                   )}
                 </div>
               </div>
-
-              {/* Floating Badge 1: Top Right */}
-              <motion.div
-                initial={{ opacity: 0, y: 10 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: 0.5, duration: 0.5 }}
-                className="absolute -top-4 -right-4 bg-[#FFFFFF] border border-[#DCE8D5] px-3.5 py-2 rounded-xl shadow-md flex items-center gap-2"
-              >
-                <div className="w-7 h-7 rounded-lg bg-[#DCE8D5] text-[#526B50] flex items-center justify-center">
-                  <Award className="w-4 h-4" />
-                </div>
-                <div className="text-left">
-                  <div className="text-[10px] text-[#76946C] font-semibold uppercase">Hackathon</div>
-                  <div className="text-xs font-bold text-[#343D32]">2nd Runner-Up</div>
-                </div>
-              </motion.div>
-
-              {/* Floating Badge 2: Bottom Left */}
-              <motion.div
-                initial={{ opacity: 0, y: -10 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: 0.6, duration: 0.5 }}
-                className="absolute -bottom-4 -left-4 bg-[#FFFFFF] border border-[#DCE8D5] px-3.5 py-2 rounded-xl shadow-md flex items-center gap-2"
-              >
-                <div className="w-7 h-7 rounded-lg bg-[#DCE8D5] text-[#526B50] flex items-center justify-center">
-                  <Sparkles className="w-4 h-4" />
-                </div>
-                <div className="text-left">
-                  <div className="text-[10px] text-[#76946C] font-semibold uppercase">Tech &amp; AI</div>
-                  <div className="text-xs font-bold text-[#343D32]">Continuous Learner</div>
-                </div>
-              </motion.div>
             </div>
           </motion.div>
 

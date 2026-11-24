@@ -106,6 +106,7 @@ export interface EducationItem {
   status: string;
   description: string;
   coursework: string[];
+  score?: string;
 }
 
 export interface ContactData {
@@ -138,7 +139,7 @@ export const personalInfo: PersonalInfo = {
   statusBadge: "Open to Internships & Collaborative Projects",
   
   // Resume link
-  resumeUrl: "#contact",
+  resumeUrl: "/Zeenath_Ziyan_Resume.pdf",
   
   // User Photograph
   avatarUrl: "/zeenath-photo.jpg",
@@ -440,7 +441,7 @@ export const achievementsData: AchievementItem[] = [
 ];
 
 // ---------------------------------------------------------------------------
-// 7. EDUCATION (Shri Madhwa Vadiraja Institute of Technology & Management)
+// 7. EDUCATION (Academic Journey: Engineering, 2nd PUC, and 10th School)
 // ---------------------------------------------------------------------------
 export const educationData: EducationItem[] = [
   {
@@ -448,9 +449,10 @@ export const educationData: EducationItem[] = [
     institution: "Shri Madhwa Vadiraja Institute of Technology and Management",
     degree: "B.E. (Bachelor of Engineering)",
     field: "Artificial Intelligence and Data Science",
-    academicYear: "2023 - 2027",
-    graduationYear: "2027",
+    academicYear: "2024 - 2028",
+    graduationYear: "2028",
     status: "Currently Pursuing / Enrolled",
+    score: "Undergraduate Degree",
     description: "Currently pursuing Bachelor of Engineering in Artificial Intelligence and Data Science at Shri Madhwa Vadiraja Institute of Technology and Management (SMVITM). Building robust competencies in machine learning, deep neural architectures, data analysis pipelines, algorithms, and modern software engineering.",
     coursework: [
       "Artificial Intelligence & Machine Learning",
@@ -460,6 +462,43 @@ export const educationData: EducationItem[] = [
       "Object-Oriented Programming (Java/Python)",
       "Web Technologies & Full Stack Development",
       "Operating Systems & Computer Networks"
+    ]
+  },
+  {
+    id: "govt-girls-pu-college",
+    institution: "Govt. Girls P.U College Udupi",
+    degree: "Pre-University Course (2nd PUC / 12th Standard)",
+    field: "Science Stream (PCMB / PCMC)",
+    academicYear: "2021 - 2023",
+    graduationYear: "2023",
+    status: "Completed",
+    score: "Secured 79% in Boards",
+    description: "Completed Pre-University course in the Science stream at Govt. Girls P.U College Udupi, securing 79% in the Karnataka State Board Examinations. Established solid mastery over analytical mathematics, physical sciences, and logical reasoning.",
+    coursework: [
+      "Physics",
+      "Chemistry",
+      "Mathematics",
+      "Biology / Computer Science",
+      "English Language",
+      "Scientific Analysis"
+    ]
+  },
+  {
+    id: "met-english-medium-school",
+    institution: "M.E.T English Medium Public School",
+    degree: "Secondary School Leaving Certificate (SSLC / 10th Standard)",
+    field: "General High School Academic Curriculum",
+    academicYear: "2020 - 2021",
+    graduationYear: "2021",
+    status: "Completed",
+    score: "Secured 86% in Boards",
+    description: "Completed secondary education at M.E.T English Medium Public School with academic distinction, securing 86% in the Karnataka State Board Examinations. Built strong fundamentals in mathematical problem-solving, science, and communication.",
+    coursework: [
+      "Mathematics",
+      "General Science",
+      "Social Science",
+      "English Language & Literature",
+      "Foundational Computing"
     ]
   }
 ];
